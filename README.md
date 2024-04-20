@@ -12,4 +12,10 @@ and NumPy for numerical operations,
 scikit learn for providing a classification report for the overall performance of the model,
 streamlit to make a website using python for a FrontEnd user interface
 
+How to use:
 
+- Just Provide a well structured dataset of weed images, structured into 'train', 'test', 'valid' sets
+- train the model using this data
+- analyse the performance of the model based upon the data and the layering of the model, adjust the size of the model based upon your data
+- Save the model in the same directory
+- Run the main.py by running the command 'streamlit run main.py'
